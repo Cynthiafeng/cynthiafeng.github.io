@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+    color: cornflowerblue;
+    margin-left: 5%;
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 10px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+  display: inline-block;
+  color: slategray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+}
+
+h1 {
+    display: inline;
+    padding-right: 10px;
+    font-size: 50px;
+}
+
+#my {
+    font-weight: 600;
+    margin-left: 35%;
+}
+
+#work {
+    color: cornflowerblue;
+}
+
+header {
+    background-color: ;
+    width: 100%;
+    border-bottom: solid lightgray;
+    margin-bottom: 30px;
+}
+
+#bod {
+    display: flex;
+    flex-direction: column;
+}
+
+#selfie {
+    width: 50vw;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+p {
+    color: white;
+    padding: 5%;
+}
+
+#box2 {
+    display: flex;
+}
