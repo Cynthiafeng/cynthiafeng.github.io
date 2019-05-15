@@ -1,0 +1,105 @@
+body {
+    background-color: black;
+    font-family: 'Dosis', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+h2 {
+    color: cornflowerblue;
+    margin-top: 2%;
+}
+#up {
+    float: left;
+    padding-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 10px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+  display: inline-block;
+  color: slategray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+}
+
+h1 {
+    display: inline;
+    padding-right: 10px;
+    font-size: 50px;
+}
+
+#my {
+    font-weight: 200;
+    margin-left: 35%;
+    color: white;
+    font-weight: 600;
+}
+
+#work {
+    color: cornflowerblue;
+}
+
+video {
+    display: flex;
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    color: dimgray;
+    padding-bottom: 50px;
+    margin: 30px;
+}
+
+header {
+    background-color: ;
+    width: 100%;
+    border-bottom: solid lightgray;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#foot {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 2.5rem;
+}
+
+#bod {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+source {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

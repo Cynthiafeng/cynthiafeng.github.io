@@ -18,7 +18,6 @@ function onInputBlur(event) {
 $(document).ready(function() {
   $input = $('.input__field');
   
-  // in case there is any value already
   $input.each(function(){
     if ($input.val().trim() !== '') {
       var $parent = $input.parent();
@@ -29,3 +28,7 @@ $(document).ready(function() {
   $input.on('focus', onInputFocus);
   $input.on('blur', onInputBlur);
 });
+
+function sent(){
+    alert("Submitted");
+}
